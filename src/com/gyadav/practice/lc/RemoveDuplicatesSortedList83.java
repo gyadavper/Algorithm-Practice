@@ -21,9 +21,16 @@ public class RemoveDuplicatesSortedList83 {
         listNode.next.next.next = new ListNode(3);
         listNode.next.next.next.next = new ListNode(3);
     }
+
     public ListNode deleteDuplicates(ListNode head) {
-
-
+        ListNode currentNode = head;
+        while (currentNode != null && currentNode.next != null) {
+            if (currentNode.val == currentNode.next.val) {
+                currentNode.next = currentNode.next.next;
+            } else {
+                currentNode = currentNode.next;
+            }
+        }
         return head;
     }
 }
