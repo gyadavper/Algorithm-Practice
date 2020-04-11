@@ -1,4 +1,4 @@
-package com.gyadav.practice.educative;
+package com.gyadav.practice.educative.slidingwindow;
 
 public class MaxSumSubArrayOfSizeK {
     public static int findMaxSumSubArray(int k, int[] arr) {
