@@ -1,4 +1,4 @@
-package com.gyadav.practice.ch04;
+package com.gyadav.practice.ctci.ch04;
 
 import com.gyadav.practice.helper.Graph;
 import com.gyadav.practice.helper.Node;
