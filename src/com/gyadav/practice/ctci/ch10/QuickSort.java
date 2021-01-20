@@ -7,11 +7,11 @@ public class QuickSort {
     public static void quickSortRecursive (int[] arr, int start, int end) {
         if (start >= end)
             return;
-        int pivot = (int) Math.random() * (end - start) + start;
+        int pivot = (int) (Math.random() * (end - start) + start);
         swap(arr, start, pivot);
         int smaller = start;
         for (int bigger = start; bigger <= end; bigger++) {
-            if (arr[bigger] < arr[pivot]) {
+            if (arr[bigger] < arr[start]) {
                 smaller++;
                 swap(arr, smaller, bigger);
             }
