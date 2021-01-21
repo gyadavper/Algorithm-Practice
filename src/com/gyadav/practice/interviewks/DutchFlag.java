@@ -2,7 +2,7 @@ package com.gyadav.practice.interviewks;
 
 public class DutchFlag {
     public static void dutch_flag_sort(char[] balls) {
-        int start = 1, end = balls.length - 1, i = 1;
+        int start = 0, end = balls.length - 1, i = 1;
         while (i <= end) {
             if(balls[i] == 'R') {
                 swap(balls, i, start);
@@ -11,7 +11,7 @@ public class DutchFlag {
             } else if (balls[i] == 'B') {
                 swap(balls, i, end);
                 end--;
-            } else {
+            } else if (balls[i] == 'G'){
                 i++;
             }
         }
@@ -22,7 +22,7 @@ public class DutchFlag {
         balls[j] = temp;
     }
     public static void main(String[] a) {
-        char[] balls = new char[] {'6', 'G', 'G','B','B','R','R'};
+        char[] balls = new char[] {'2', 'B', 'G'};
          DutchFlag.dutch_flag_sort(balls);
         System.out.println();
     }
