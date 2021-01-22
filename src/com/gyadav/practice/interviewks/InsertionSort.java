@@ -13,7 +13,7 @@ public class InsertionSort {
         }
     }
     public static void main (String[] a) {
-        int[] input = {6, 2, 3, 4, 5, 1};
+        int[] input = {6, 4, 3, 2, 5, 1};
         InsertionSort.insertionSortImperative(input);
     }
 }
