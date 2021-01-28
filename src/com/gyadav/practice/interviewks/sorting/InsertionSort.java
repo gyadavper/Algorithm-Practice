@@ -1,4 +1,4 @@
-package com.gyadav.practice.interviewks;
+package com.gyadav.practice.interviewks.sorting;
 
 public class InsertionSort {
     public static void insertionSortImperative(int[] input) {

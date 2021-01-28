@@ -1,4 +1,4 @@
-package com.gyadav.practice.interviewks;
+package com.gyadav.practice.interviewks.sorting;
 
 public class DutchFlag {
     public static void dutch_flag_sort(char[] balls) {

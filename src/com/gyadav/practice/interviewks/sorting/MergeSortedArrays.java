@@ -1,4 +1,4 @@
-package com.gyadav.practice.interviewks;
+package com.gyadav.practice.interviewks.sorting;
 
 public class MergeSortedArrays {
     static void merger_first_into_second(int[] arr1, int[] arr2) {

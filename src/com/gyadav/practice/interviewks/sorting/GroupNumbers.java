@@ -1,4 +1,4 @@
-package com.gyadav.practice.interviewks;
+package com.gyadav.practice.interviewks.sorting;
 
 public class GroupNumbers {
     static int[] solve(int[] arr) {

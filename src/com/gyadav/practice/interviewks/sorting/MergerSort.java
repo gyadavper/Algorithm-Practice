@@ -1,4 +1,4 @@
-package com.gyadav.practice.interviewks;
+package com.gyadav.practice.interviewks.sorting;
 
 import java.util.ArrayList;
 import java.util.Arrays;
